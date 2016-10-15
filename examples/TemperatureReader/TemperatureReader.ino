@@ -23,7 +23,7 @@ void loop() {
     Serial.print("Device id:\t");
     Serial.println(id);
     Serial.print("Temperature:\t");
-    Serial.println(temperature);
+    Serial.println(temperature, 4); // Four decimals
     Serial.println();
 
   }
