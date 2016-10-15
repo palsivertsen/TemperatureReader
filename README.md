@@ -1,6 +1,12 @@
 # TemperatureReader
 Temperature reader for the DS18B20
 
+## Features
+- Read from multiple DS18B20 on a single line (OneWire)
+- Scan for devices dynamically
+- Read temperature
+- Read id
+
 ## Dependencies
 - https://github.com/PaulStoffregen/OneWire
 
